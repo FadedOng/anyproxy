@@ -1,7 +1,6 @@
 const AnyProxy = require('anyproxy');
 const options = {
   port: 8080,
-  rule: require('myRuleModule'),
   webInterface: {
     enable: true,
     webPort: 8081
