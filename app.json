@@ -1,14 +1,9 @@
 {
    "name":"anyproxy",
    "repository":"https://github.com/FadedOng/anyproxy",
-   "keywords":[
-      "anyproxy"
-   ],
-   {
-      "buildpacks":[
-         {
-            "url":"heroku/nodejs"
-         }
-      ]
-   }
+   "buildpacks":[
+      {
+         "url":"heroku/nodejs"
+      }
+   ]
 }
